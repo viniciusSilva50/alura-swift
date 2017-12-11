@@ -2,10 +2,10 @@ import Foundation
 
 class Item {
     var name: String
-    var callories: Double
+    var calories: Double
     
-    init(name: String, callories: Double){
+    init(name: String, calories: Double){
         self.name = name
-        self.callories = callories
+        self.calories = calories
     }
 }

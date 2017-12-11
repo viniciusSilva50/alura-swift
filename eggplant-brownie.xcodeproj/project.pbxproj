@@ -7,10 +7,12 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		811ADAFB1FDDF1FC00FAFA41 /* MealDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 811ADAFA1FDDF1FC00FAFA41 /* MealDelegate.swift */; };
 		8126D80A1FC242BE00F4DE54 /* Meal.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8126D8091FC242BE00F4DE54 /* Meal.swift */; };
 		8126D80C1FC2432A00F4DE54 /* Item.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8126D80B1FC2432A00F4DE54 /* Item.swift */; };
 		8126D8181FC24C4B00F4DE54 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8126D8171FC24C4B00F4DE54 /* ViewController.swift */; };
 		8126D81A1FC24C5A00F4DE54 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8126D8191FC24C5A00F4DE54 /* Main.storyboard */; };
+		81D7DA7F1FDDC44E00A8791C /* MealsTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81D7DA7E1FDDC44E00A8791C /* MealsTableViewController.swift */; };
 		81F8C3471FBBD96A00441E6F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81F8C3461FBBD96A00441E6F /* AppDelegate.swift */; };
 		81F8C34F1FBBD96A00441E6F /* eggplant_brownie.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 81F8C34D1FBBD96A00441E6F /* eggplant_brownie.xcdatamodeld */; };
 		81F8C3511FBBD96A00441E6F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 81F8C3501FBBD96A00441E6F /* Assets.xcassets */; };
@@ -18,11 +20,13 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		811ADAFA1FDDF1FC00FAFA41 /* MealDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MealDelegate.swift; sourceTree = "<group>"; };
 		8126D8091FC242BE00F4DE54 /* Meal.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Meal.swift; sourceTree = "<group>"; };
 		8126D80B1FC2432A00F4DE54 /* Item.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Item.swift; sourceTree = "<group>"; };
 		8126D8171FC24C4B00F4DE54 /* ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		8126D8191FC24C5A00F4DE54 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
 		814A1D7A1FBCC764001FEC91 /* MyPlayground.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = MyPlayground.playground; sourceTree = "<group>"; };
+		81D7DA7E1FDDC44E00A8791C /* MealsTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MealsTableViewController.swift; sourceTree = "<group>"; };
 		81F8C3431FBBD96A00441E6F /* eggplant-brownie.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "eggplant-brownie.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		81F8C3461FBBD96A00441E6F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		81F8C34E1FBBD96A00441E6F /* eggplant_brownie.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = eggplant_brownie.xcdatamodel; sourceTree = "<group>"; };
@@ -46,6 +50,7 @@
 			isa = PBXGroup;
 			children = (
 				8126D8171FC24C4B00F4DE54 /* ViewController.swift */,
+				81D7DA7E1FDDC44E00A8791C /* MealsTableViewController.swift */,
 			);
 			path = controllers;
 			sourceTree = "<group>";
@@ -67,6 +72,14 @@
 			path = views;
 			sourceTree = "<group>";
 		};
+		81D7DA811FDDDC0300A8791C /* delegates */ = {
+			isa = PBXGroup;
+			children = (
+				811ADAFA1FDDF1FC00FAFA41 /* MealDelegate.swift */,
+			);
+			path = delegates;
+			sourceTree = "<group>";
+		};
 		81F8C33A1FBBD96A00441E6F = {
 			isa = PBXGroup;
 			children = (
@@ -86,6 +99,7 @@
 		81F8C3451FBBD96A00441E6F /* eggplant-brownie */ = {
 			isa = PBXGroup;
 			children = (
+				81D7DA811FDDDC0300A8791C /* delegates */,
 				8126D8041FC2428200F4DE54 /* controllers */,
 				8126D8051FC2428200F4DE54 /* models */,
 				8126D8061FC2428200F4DE54 /* views */,
@@ -173,6 +187,8 @@
 			files = (
 				8126D8181FC24C4B00F4DE54 /* ViewController.swift in Sources */,
 				8126D80C1FC2432A00F4DE54 /* Item.swift in Sources */,
+				81D7DA7F1FDDC44E00A8791C /* MealsTableViewController.swift in Sources */,
+				811ADAFB1FDDF1FC00FAFA41 /* MealDelegate.swift in Sources */,
 				8126D80A1FC242BE00F4DE54 /* Meal.swift in Sources */,
 				81F8C34F1FBBD96A00441E6F /* eggplant_brownie.xcdatamodeld in Sources */,
 				81F8C3471FBBD96A00441E6F /* AppDelegate.swift in Sources */,

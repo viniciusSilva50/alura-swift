@@ -15,7 +15,7 @@ class Meal {
         var total: Double = 0
         
         for item in self.items {
-            total += item.callories
+            total += item.calories
         }
         
         return total
